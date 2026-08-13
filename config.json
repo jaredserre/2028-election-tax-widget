@@ -1,0 +1,51 @@
+{
+  "maxItemsPerTopic": 20,
+  "maxAgeHours": 336,
+  "topics": {
+    "2028-presidential-tax": {
+      "all": [
+        [
+          "tax",
+          "taxes",
+          "tax policy",
+          "tax plan",
+          "tax proposal",
+          "tax cut",
+          "tax cuts",
+          "tax increase",
+          "tax credit",
+          "corporate tax",
+          "income tax",
+          "capital gains",
+          "estate tax",
+          "tariff",
+          "tariffs",
+          "IRS"
+        ],
+        [
+          "2028 presidential",
+          "2028 election",
+          "presidential election",
+          "presidential campaign",
+          "presidential candidate",
+          "White House race",
+          "2028 race"
+        ]
+      ]
+    }
+  },
+  "feeds": [
+    {
+      "name": "Google News — 2028 presidential tax policy",
+      "url": "https://news.google.com/rss/search?q=%282028+presidential+OR+2028+election+OR+presidential+campaign%29+%28tax+OR+taxes+OR+tariff+OR+IRS%29&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News — presidential candidates and taxes",
+      "url": "https://news.google.com/rss/search?q=%28presidential+candidate+OR+White+House+race%29+%28tax+policy+OR+tax+plan+OR+tax+cuts+OR+corporate+tax+OR+income+tax%29&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "U.S. Treasury Press Releases",
+      "url": "https://home.treasury.gov/news/press-releases/feed"
+    }
+  ]
+}
